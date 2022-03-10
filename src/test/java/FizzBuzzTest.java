@@ -48,4 +48,11 @@ public class FizzBuzzTest {
 
         Assert.assertEquals("Buzz", result);
     }
+    @Test
+    public void FizzBuzzReturnsFizzBuzzIfInputIs15(){
+        int a = 15;
+        String result = FizzBuzz.calculate(a);
+
+        Assert.assertEquals("FizzBuzz", result);
+    }
 }
