@@ -19,4 +19,12 @@ public class FizzBuzzTest {
         Assert.assertEquals("4", result);
     }
 
+    @Test
+    public void FizzBuzzReturnsFizzIfInputIs3(){
+        int a = 3;
+        String result = FizzBuzz.calculate(a);
+
+        Assert.assertEquals("Fizz", result);
+    }
+
 }
