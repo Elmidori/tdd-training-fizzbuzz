@@ -34,4 +34,11 @@ public class FizzBuzzTest {
 
         Assert.assertEquals("Fizz", result);
     }
+    @Test
+    public void FizzBuzzReturnsFizzIfInputIs5(){
+        int a=5;
+        String result = FizzBuzz.calculate(a);
+
+        Assert.assertEquals("Buzz", result);
+    }
 }
