@@ -27,4 +27,11 @@ public class FizzBuzzTest {
         Assert.assertEquals("Fizz", result);
     }
 
+    @Test
+    public void FizzBuzzReturnsFizzIfInputIsMultipleOf3(){
+        int a=9;
+        String result = FizzBuzz.calculate(a);
+
+        Assert.assertEquals("Fizz", result);
+    }
 }
