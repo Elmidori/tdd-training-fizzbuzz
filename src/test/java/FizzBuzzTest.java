@@ -11,5 +11,12 @@ public class FizzBuzzTest {
         Assert.assertEquals("1", result);
     }
 
+    @Test
+    public void FizzBuzzReturnsFizzIfInputIs4(){
+        int a = 4;
+        String result = FizzBuzz.calculate(a);
+
+        Assert.assertEquals("4", result);
+    }
 
 }

@@ -1,5 +1,6 @@
 public class FizzBuzz {
     public static String calculate(int a){
-        return "1";
+
+        return Integer.toString(a);
     }
 }
