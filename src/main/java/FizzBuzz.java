@@ -1,6 +1,6 @@
 public class FizzBuzz {
     public static String calculate(int a){
-        if(a==15)
+        if(a%15==0)
             return "FizzBuzz";
         else if(a%5==0){
             return "Buzz";
