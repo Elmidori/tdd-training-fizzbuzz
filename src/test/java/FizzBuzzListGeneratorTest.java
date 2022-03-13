@@ -33,4 +33,17 @@ public class FizzBuzzListGeneratorTest {
         Assert.assertEquals(expected, result);
     }
 
+    @Test
+    public void FizzBuzzListReturns1_2_FizzIfInputIs3(){
+        int a=3;
+
+        List<String> expected = new ArrayList<String >() {{
+            add("1");add("2");add("Fizz");
+        }};
+
+        List<String> result = FizzBuzzListGenerator.generateList(a);
+
+        Assert.assertEquals(expected, result);
+    }
+
 }
