@@ -5,7 +5,9 @@ public class FizzBuzzListGenerator {
 
     public static List<String> generateList(int a){
         List<String> fizzBuzzList= new ArrayList<>();
-        fizzBuzzList.add("1");
+        for (int i=1;i<=a;i++){
+            fizzBuzzList.add(Integer.toString(i));
+        }
         return fizzBuzzList;
     }
 }
