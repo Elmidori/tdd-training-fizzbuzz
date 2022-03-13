@@ -55,7 +55,7 @@ public class FizzBuzzTest {
 
         Assert.assertEquals("FizzBuzz", result);
     }
-    
+
     @Test
     public void FizzBuzzReturnsFizzBuzzIfInputIsMultipleOf15(){
         int a=45;
@@ -63,4 +63,5 @@ public class FizzBuzzTest {
 
         Assert.assertEquals("FizzBuzz", result);
     }
+
 }
